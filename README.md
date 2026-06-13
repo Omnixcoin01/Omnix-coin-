@@ -1,0 +1,2 @@
+# Omnix-coin-
+Official website 
