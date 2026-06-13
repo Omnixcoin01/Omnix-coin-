@@ -378,7 +378,7 @@ showTxHistoryBtn.onclick = () => {
 db.collection("settings").doc("omxRate").get().then(doc=>{RATE=doc.exists?doc.data().rate:1350;omxPrice.innerText=`1 OMX = ₦${RATE}`;});
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('service-worker.js')
-    .then(() => console.log("Hello")("Service Worker Registered"));
+    .then(() => console.log("Service Worker Registered"));
 }  
 </script>  </body>  
 </html>
